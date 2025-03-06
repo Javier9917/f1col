@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url(indexResponcive.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #ffffff;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 0, 0);
+    top: 0;
+    left: 0;
+    position: fixed;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.contenedor {
+    margin: 0;
+    width: 90%;
+    position: absolute;
+
+}
+
+header .contenedor {
+    display: table;
+}
+
+.logo {
+    position: relative;
+    margin-top: 0;
+    width: 400px;
+    left: 110px;
+
+}
+
+.login button {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 6%;
+    height: 50%;
+    top: 20%;
+
+}
+
+.contenedor .tabla{
+    position: relative;
+    width: 100%;
+    left: 4%;
+    border-collapse: separate;
+    border-spacing: 4px;
+
+    background: #ff0000  bottom left repeat-x;
+    color: #000000;
+    background: linear-gradient(to bottom, #ffffff, #ff0000);
+ }
+ 
+ td, th {
+    background: #ffffff;
+    color: #000000;
+ }
+
+/*
+.contenedor .tabla {
+    position: relative;
+    color: black;
+    border: 1px solid #000000;
+    border-collapse: separate;
+    border-spacing: 5px;
+    width: 100%;
+    left: 4%;
+}*/
+
+.contenedor h2 {
+    color: #000000;
+}
+
+.contenedor3 {
+    max-width: 100%;
+    margin-top: 120%;
+    text-align: center;
+    font-family: oswal, sans-serif;
+}
+
+
+.contenedor3 h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+.contenedor3 form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.contenedor3 form input {
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+}
+
+
+.contenedor3 form button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.contenedor form button:hover {
+    background-color: #d13636;
+}
+
+
+.footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px 10px;
+    font-family: Arial, sans-serif;
+}
+
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    font-size: 35px;
+    color: rgb(136, 136, 136);
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+
+.social-icons a:hover {
+    transform: scale(1.1);
+    color: #ff0000;
+}
+
+
+.footer p {
+    font-size: 14px;
+    color: #ff0000;
+    margin: 0;
+}
+
+
+main {
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+main h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #ff0000;
+}
+
+
+article {
+    display: flex;
+    align-items: center;
+    background: #181717;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 20px auto;
+    max-width: 900px;
+    transition: transform 0.3s ease-in-out;
+    padding: 20px;
+}
+
+article:hover {
+    transform: scale(1.03);
+}
+
+
+article+div img {
+    width: 100%;
+    max-width: 900px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 3px solid #ff0000;
+}
+
+
+article h3 {
+    font-size: 22px;
+    color: #ff0000;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+article p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+article a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ff0000;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+article a:hover {
+    color: #ffffff;
+}
+
+
+@media (max-width: 768px) {
+    article {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    article h3,
+    article p {
+        text-align: center;
+    }
+}
+
+.contenedor .tabla td, 
+.contenedor .tabla th {
+    padding: 22px;
+}
+
+td[class] {
+    background-size: 150px 55px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 30px;
+    background-color: #ffffff;
+}
+
+.australia {
+    background-image: url('https://www.banderas-mundo.es/data/flags/h80/au.webp');
+
+}
+
+.china {
+    background-image: url('https://www.banderas-mundo.es/data/flags/h80/cn.webp');
+
+}
+
+.japon {
+    background-image: url('https://www.banderas-mundo.es/data/flags/h80/jp.webp');
+}
+
+.barein {
+    background-image: url('https://www.banderas-mundo.es/data/flags/h80/bh.webp');
+}
+
+.arabiaSaudita {
+    background-image: url('https://www.banderas-mundo.es/data/flags/h80/sa.webp');
+}
+
+.miami, .eeuu {
+    background-image: url('https://www.banderas-mundo.es/data/flags/h80/us.webp');
+}
+
+.imola, .italia {
+    background-image: url('https://www.banderas-mundo.es/data/flags/h80/it.webp');
+}
+
+.monaco {
+    background-image: url('https://www.banderas-mundo.es/data/flags/h80/mc.webp');
+}
+
+.espana {
+    background-image: url('https://www.banderas-mundo.es/data/flags/h80/es.webp');
+}
+
+.canada {
+    background-image: url('https://www.banderas-mundo.es/data/flags/h80/ca.webp');
+}
+
+.austria {
+    background-image: url('https://www.banderas-mundo.es/data/flags/h80/at.webp');
+}
+
+.granbretaña {
+    background-image: url('https://www.banderas-mundo.es/data/flags/h80/gb.webp');
+}
+
+.belgica {
+    background-image: url('https://www.banderas-mundo.es/data/flags/h80/be.webp');
+}
+
+.hungria {
+    background-image: url('https://www.banderas-mundo.es/data/flags/h80/hu.webp');
+}
+
+.paisesbajos {
+    background-image: url('https://www.banderas-mundo.es/data/flags/h80/nl.webp');
+}
+
+.azerbaiyan {
+    background-image: url('https://www.banderas-mundo.es/data/flags/h80/az.webp');
+}
+
+.singapur {
+    background-image: url('https://www.banderas-mundo.es/data/flags/h80/sg.webp');
+}
+
+.mexico {
+    background-image: url('https://www.banderas-mundo.es/data/flags/h80/mx.webp');
+}
+
+.brasil {
+    background-image: url('https://www.banderas-mundo.es/data/flags/h80/br.webp');
+}
+
+.lasvegas {
+    background-image: url('https://www.banderas-mundo.es/data/flags/h80/us.webp');
+}
+
+.qatar {
+    background-image: url('https://www.banderas-mundo.es/data/flags/h80/qa.webp');
+}
+
+.abudhabi {
+    background-image: url('https://www.banderas-mundo.es/data/flags/h80/ae.webp');
+}
+
+
+

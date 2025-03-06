@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>F1COL - Contacto</title>
+        <link rel="shortcut icon" href="img/logo3.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <link rel="stylesheet" href="css/contacto.css">
+    </head>
+    <body>
+        <header>
+        <div class="contenedor">
+            <input type="checkbox" id="menu_bar">
+            <label for="menu_bar" class="fa fa-bars"></label>
+            <nav class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="noticias.html">Noticias</a>
+                <a href="videos.html">Videos</a>
+                <a href="calendario.html">Calendario</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div>
+        
+            <div class="logo">
+                <img src="img/logorectangular1.png" width="250" alt="F1COL Logo" style="display: block; margin: 0 auto;">
+            <h1></h1>
+            </div> 
+        </header>
+        <br>
+        <section id="banner">
+            <img src="img/contacto.png" alt width="100%" >
+        </section>
+
+
+        <main>
+                <div class="contacto">
+                <h2>📩 Contacto</h2>
+                <b>
+                    <p>¿Tienes dudas, sugerencias o quieres colaborar con nosotros?
+                        Escríbenos.</p>
+                </b>
+                <br>
+                <b>
+                    <form action="enviar.php" method="POST">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                        <br><br>
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                        <br><br>
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="5"
+                            required></textarea>
+                        <br><br>
+                        <button type="submit">Enviar Mensaje</button>
+                    </form>
+                </b>
+                <br><br>
+                <h3>📱 También puedes encontrarnos en:</h3>
+                <br><br>
+            </div>
+            <div class="contenedor3">
+                <div> 
+                    <h2>📩 ¡Suscríbete a nuestro informativo!</h2>
+                    <p>Recibe las últimas noticias y actualizaciones
+                        directamente en
+                        tu correo electrónico.</p>
+                    <form action="#">
+                        <input type="email" placeholder="Tu correo electrónico"
+                            required>
+                        <button type="submit">Suscribirme</button>
+                    </form>
+                </div>
+            </div>
+                <br>
+            </main>
+            <footer class="footer">
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/soy_f1_col/profilecard/?igsh=MXU0N2xxOG9iejJrbg%3D%3D" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@f1col_" target="_blank">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
+                <p>© 2025 F1COL. Todos los derechos reservados.</p>
+            </footer>
+    </body>
+</html>

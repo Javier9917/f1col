@@ -1,0 +1,72 @@
+<h3>Registro Usuario</h3>
+
+<form action="datos.php" method="post">
+
+    <label for="documento">N° Documento</label>
+    <br>
+ 
+    <input type="text" name="documento" id="" required>
+    <br>
+    <label for="tiposDocumento">Tipo Doc.</label>
+    <br>
+    <select name="tiposDocumento" id>
+        <option value>Seleccione</option>
+        <option value="cc">C.C</option>
+        <option value="pet">C.E</option>
+        <option value="pasaporte">Pasaporte</option>
+    </select>
+    <br>
+    <label for>Nombre Completo</label>
+    <br>
+    <input type="text" name="nombreCompleto" id>
+    <br>
+    <label for="fechaNacimiento">Fecha de Nacimiento</label>
+    <br>
+    <input type="date" name="fechaNacimiento" id>
+    <br>
+    <label for="correo">Correo</label>
+    <br>
+    <input type="email" name="correo" id>
+    <br>
+    <label for="clave">Contraseña</label>
+    <br>
+    <input type="password" name="clave" id>
+    <br>
+    <label for="sexo">Genero</label>
+    <br>
+    <input type="radio" name="sexo" id>Masculino
+    <input type="radio" name="sexo" id>Femenino
+    <input type="radio" name="sexo" id>Otro
+    <br>
+    <label for="color">Color Avatar</label>
+    <input type="color" name="color" id>
+    <br>
+    <br>
+    <label for="nacionalidad">Nacionalidad</label><br>
+    <select name="nacionalidad" id="nacionalidad">
+        <option value>Seleccione</option>
+        <option value="colombia">Colombia</option>
+        <option value="ecuador">Ecuador</option>
+        <option value="brasil">Brasil</option>
+        <option value="venezuela">Venezuela</option>
+        <option value="chile">Chile</option>
+    </select>
+    <br><br>
+
+    <label for="foto">Adjuntar foto</label><br>
+    <input type="file" name="foto" id="foto">
+    <br><br>
+
+    <input type="checkbox" name="aceptar" id="aceptar" required> Acepto Términos
+    y Condiciones
+    <br><br>
+
+    <button type="submit" name="enviar">Enviar Datos</button>
+
+</form>
+
+<br>
+<br>
+<a href="index.html">
+    <button type="button">Volver al Inicio</button>
+</a>
