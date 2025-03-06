@@ -13,8 +13,12 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    background-color: #ffffff;
+    background-color: #ff0000;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
 }
+
 
 header {
     width: 100%;
@@ -89,7 +93,7 @@ header .contenedor {
 
 .contenedor3 {
     max-width: 100%;
-    margin-top: 140%;
+    margin-top: 150%;
     text-align: center;
     font-family: oswal, sans-serif;
 }
@@ -135,7 +139,7 @@ header .contenedor {
     background-color: #f1f1f1;
     text-align: center;
     padding: 20px 10px;
-    font-family: Arial, sans-serif;
+    font-family: oswal, sans-serif;
 }
 
 
@@ -172,6 +176,7 @@ main {
     text-align: center;
     padding: 40px 20px;
     font-family: Arial, sans-serif;
+    flex: 1;
 }
 
 main h2 {
@@ -179,6 +184,7 @@ main h2 {
     margin-bottom: 20px;
     text-transform: uppercase;
     color: #ff0000;
+    flex: 1;
 }
 
 
@@ -245,6 +251,12 @@ article a:hover {
     article h3,
     article p {
         text-align: center;
+    }
+    .footer {
+        width: 100%;
+        position: relative; /* Evitar que se superponga */
+        bottom: 0;
+    
     }
 }
 
